@@ -1,40 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Phone Book 📒
 
-## Getting Started
+A contact management application built with **Next.js, React, and MongoDB**.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Add new contacts
+- View a list of contacts
+- Edit existing contacts
+- Delete contacts
+- Store contact information in MongoDB
+- Use API routes to handle contact operations
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Frontend:** React.js, Next.js
+- **Backend:** Next.js API Routes
+- **Database:** MongoDB
+- **ODM:** Mongoose
+- **Styling:** CSS Modules
+- **Language:** JavaScript
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🚀 Getting Started
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js and npm
+- MongoDB
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/moones299/Phone-Book.git
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Navigate to the project directory:
 
-## Deploy on Vercel
+   ```bash
+   cd Phone-Book
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Install dependencies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+   ```bash
+   npm install
+   ```
+
+4. Configure your MongoDB connection in `utils/connectDB.js`.
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🗄️ Database
+
+This application uses MongoDB to store contact information, with Mongoose for data modeling and database operations.
+
+Make sure MongoDB is running and the database connection is configured correctly before starting the application.
+
+## 🎯 Project Purpose
+
+This project was developed to practice React components, Next.js API routes, CRUD operations, and MongoDB integration in a full-stack web application.
+
+## 👨‍💻 Author
+
+**Moones**
+
+GitHub: [@moones299](https://github.com/moones299)
